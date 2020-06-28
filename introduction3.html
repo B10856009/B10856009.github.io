@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RWD網頁B10856046</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        [class*="col-"] {
+            float: left;
+            padding: 15px;
+            width: 100%;
+        }
+        
+        @media only screen and (min-width:600px) {
+            .col-s-1 {
+                width: 8.33%;
+            }
+            .col-s-2 {
+                width: 16.66%;
+            }
+            .col-s-3 {
+                width: 25%;
+            }
+            .col-s-4 {
+                width: 33.33%;
+            }
+            .col-s-5 {
+                width: 41.66%;
+            }
+            .col-s-6 {
+                width: 50%;
+            }
+            .col-s-7 {
+                width: 58.33%;
+            }
+            .col-s-8 {
+                width: 66.66%;
+            }
+            .col-s-9 {
+                width: 75%;
+            }
+            .col-s-10 {
+                width: 83.33%;
+            }
+            .col-s-11 {
+                width: 91.66%;
+            }
+            .col-s-12 {
+                width: 100%;
+            }
+        }
+        
+        @media only screen and (min-width: 768px) {
+            .col-1 {
+                width: 8.33%;
+            }
+            .col-2 {
+                width: 16.66%;
+            }
+            .col-3 {
+                width: 25%;
+            }
+            .col-4 {
+                width: 33.33%;
+            }
+            .col-5 {
+                width: 41.66%;
+            }
+            .col-6 {
+                width: 50%;
+            }
+            .col-7 {
+                width: 58.33%;
+            }
+            .col-8 {
+                width: 66.66%;
+            }
+            .col-9 {
+                width: 75%;
+            }
+            .col-10 {
+                width: 83.33%;
+            }
+            .col-11 {
+                width: 91.66%;
+            }
+            .col-12 {
+                width: 100%;
+            }
+        }
+        
+        .header {
+            background-color: #bcbcbc;
+            color: blue;
+            padding: 15px;
+        }
+        
+        .menu li {
+            padding: 8px;
+            margin-bottom: 7px;
+            background-color: gray;
+            color: yellow;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        }
+        
+        .footer {
+            background-color: lawngreen;
+            color: red;
+            text-align: center;
+            font-size: 12px;
+            padding: 15px;
+        }
+        
+        img {
+            max-width: 100%;
+            <! -- 縮放過程中不超過原來大小-->height: auto;
+        }
+        /* Create four equal columns that floats next to each other */
+        
+        .column {
+            float: left;
+            width: 25%;
+            padding: 20px;
+        }
+        /* Clear floats after the columns */
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        /* On screens that are 992px wide or less, go from four columns to two columns */
+        
+        @media screen and (max-width: 1100px) {
+            .column {
+                width: 50%;
+            }
+        }
+        /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+        
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="header">
+        <h1>自我介紹</h1>
+    </div>
+
+    <marquee direction="right" height="40" scrollamount="5" behavior="alternate"><img src="pmd.jpg" height="30"></marquee>
+    <div class="row">
+        <div class="col-3 col-s-3 menu">
+            <ul>
+                <li>姓名:許竣宇</li>
+                <li>生日:90/06/24</li>
+                <li>星座:巨蟹座</li>
+                <li>血型:A型</li>
+            </ul>
+        </div>
+
+        <div class="col-6 col-s-9">
+            <img src="112233.png">
+            <h2>我很喜歡的動漫角色-托拉法爾加·D·瓦特爾·羅
+            </h2>
+            <p>托拉法爾加·D·瓦特爾·羅，為日本動漫作品《ONE PIECE》裡的一個角色。是哈特海賊團船長兼船醫，為「最惡劣世代」之一，在第二部劇情中曾經擔任過「王下七武海」。
+            </P>
+        </div>
+
+
+        <div class="col-3 col-s-12" style="background-color:lightblue;">
+            <div class="aside">
+                <h2>關於自己</h2>
+                <p>大家好，我是許竣宇，出生於台南，目前就讀屏東科技大學資訊管理系一年級，最喜歡的科目是數學，個性熱心、善良、體貼，能帶給遭周的人快樂。</P>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>B10856046</p>
+    </div>
+</body>
+
+</html>
